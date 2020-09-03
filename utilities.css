@@ -1,0 +1,124 @@
+/* Background colors */
+
+.bg-dark {
+  background: #333;
+}
+
+.bg-medium {
+  background: #e4e4c5
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #000;
+}
+
+/* Add padding or margin to y or x axis automatically */
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.mx-1 {
+  margin: 0 1rem;
+}
+
+.mx-2 {
+  margin: 0 2rem;
+}
+
+.mx-3 {
+  margin: 0 3rem;
+}
+
+.mx-4 {
+  margin: 0 4rem;
+}
+
+/* Text effects */
+
+.text-center {
+  text-align: center;
+}
+
+/* Line effects */
+
+.bottom-line {
+  height: 2px;
+  width: 10rem;
+  background: #ffbc00;
+  display: block;
+  margin: 1rem auto 1rem auto;
+}
+
+.bottom-line-menu {
+  height: 2px;
+  width: 100rem;
+  background: #ffbc00;
+  display: block;
+  margin: 3rem auto;
+}
+
+/* Buttons */
+
+.btn-main, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-main {
+  color: #333;
+  background-color: #ffbc00;
+}
+
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333;
+}
+
+button[class^='btn-']:hover, a[class^='btn-']:hover, input[class^='btn-']:hover {
+  background-color: #ffbc00;
+}
+
+/* Paragraph effects */
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}

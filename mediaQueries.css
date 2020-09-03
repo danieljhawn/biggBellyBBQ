@@ -1,0 +1,53 @@
+@media(max-width: 913px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+  .flex-items {
+    flex-direction: column;
+  }
+  .flex-columns .column, .flex-grid .column {
+    flex: 100%;
+    max-width: 100%
+  }
+  .mainMenuItems {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    min-width: 100%;
+  }
+  .mainCateringItems {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    min-width: 100%;
+  }
+  .location-items {
+    margin: 2rem;
+  }
+}
+
+@media(max-width: 350px) {
+  .logo {
+    font-size: 1.6rem;
+  }
+  .navbar a {
+    padding: 50px 10px;
+    margin: 0 3px;
+  }
+}
+
+@media (max-width: 500px) {
+  #contact-a .text-fields {
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message';
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    /* justify-items: center; */
+    /* min-width: 100%; */
+  }
+  
+}
